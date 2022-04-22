@@ -1,0 +1,391 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FDF6EC;
+  overflow-x: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 40px 180px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar a {
+  float: left;
+  color: #3B3D3F;
+  text-align: right;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.navbar #logo {
+  color: #3B3D3F;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+  text-align: left;
+}
+
+.navbar a:hover {
+  color: #E3CAA5;
+  transition: color 0.3s ease; 
+}
+/* 
+.navbar a.active {
+  color: #0067A5;
+} */
+
+.items {
+  float: right;
+  text-align: right;
+}
+
+
+/* @media screen and (max-width: 902.7px) {
+  .column .kiri {
+    padding-left: 50px !important;
+  }
+  
+  .column .kanan {
+    padding-right: 50px !important;
+  }
+} */
+
+@media screen and (max-width: 1071.2px) {
+  .navbar {
+    padding: 25px 50px !important;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: right;
+  }
+  .navbar-right {
+    float: none;
+  }
+  
+}
+
+.items .icon {
+  display: none;
+}
+
+.items .closebtn {
+  display: none;
+}
+
+@media screen and (max-width: 1071.2px) {
+  .items a {
+    display: none;
+  }
+  .items a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1071.2px) {
+  .items.responsive {position: relative;}
+  .items.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .items.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.hello {
+  color: #3B3D3F; 
+  font-size: 30px; 
+  margin: 5px 0px;
+  position: absolute;
+  text-align: left;
+}
+.name {
+  text-align: left;
+  color: #3B3D3F; 
+  font-size: 80px; 
+  margin: 5px 0px;
+  width:140%;
+  position: absolute;
+  transform: translateY(30px);
+}
+.desc {
+  color: #3B3D3F; 
+  font-size: 20px; 
+  margin: 5px 0px 40px;
+  transform: translateY(125px) translateX(-5px);
+  position: absolute;
+  text-align: left;
+}
+
+@media screen and (max-width: 1071.2px) {
+  .hello {
+    transform: translateX(-130px);
+    position: absolute;
+  }
+  .name {
+    transform: translateX(-133px) translateY(30px);
+    position: absolute;
+  }
+  .desc {
+    transform: translateX(-130px) translateY(120px);
+    position: absolute;
+  }
+  .profilephoto {
+    transform: translateX(130px);
+  }
+
+  hr.dotted {
+    border-top: 3px dotted #CEAB93;
+    width: 100%
+  }
+
+}
+
+/* @media screen and (max-width: 1370px) and (min-width: 875px){
+  .hello {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .desc {
+    font-size: 21px;
+  }
+} */
+
+@media screen and (min-width: 902.7px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #BE9B83;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+} 
+
+.sidebar a {
+  padding: 10px 15px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #3B3D3F;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  text-align: left;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  color: #E3CAA5;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  text-align: right;
+  padding-top: 30px;
+  right: 10px;
+  font-size: 36px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+.sticky{
+    color:#E0ECF4;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+
+.profilephoto {
+    
+    /* transform:translateY(35px) translateX(60px); */
+    float: right;
+    height: 150%;
+    
+    /* width: 620px; */
+}
+
+.buttondiscover {
+    background-color: #CEAB93;
+    color: #3B3D3F;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* .aboutmetitle {
+    background-color: #BE9B83;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3B3D3F; 
+} */
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.skilltitle {
+  text-align: center;
+  color: #3B3D3F;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.aboutmetitle {
+  text-align: center;
+  color: #3B3D3F;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.portfoliotitle {
+  text-align: center;
+  color: #3B3D3F;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.aboutmetext {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.skillpng {
+  width: 80%; 
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+hr.dotted {
+  border-top: 3px dotted #CEAB93;
+  width: 75%;
+}
+
+.socialmedias {
+  padding: 20px;
+  text-align: center;
+}
+
+.sm {
+  padding: 20px;
+}
+
+  /* Add padding BETWEEN each column (if you want) */
+  .lower,
+  .lower > .column {
+    padding: 1px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnn {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .lower:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    /* background-color: white; */
+    padding: 20px;
+    font-family: 'Secular One', sans-serif;
+    text-align: left;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .columnn {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnn {
+      width: 100%;
+    }
+  }
+
+  .portfolio {
+    padding-left: 200px;
+    padding-right: 200px;
+  }

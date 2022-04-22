@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Personal Website - Felicia Graciella</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section>
+            <div id="navbar" class="navbar">
+                <div class= "logo"> 
+                    <a id="logo" href="#default">Aicilef.</a>
+                </div>
+
+                <div id="navbar-right" class="items">
+                  <a class="navlink" href="#home">Home.</a>
+                  <a class="navlink" href="#about">About.</a>
+                  <a class="navlink" href="#skills">Skills.</a>
+                  <a class="navlink" href="#portfolio">Portfolio.</a>
+                  <a id="right" class="navlink" href="#contact">Contact.</a>
+                  <a class="icon" onclick="openNav()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+
+                <div id="mySidebar" class="sidebar">
+                  <a class="closebtn" onclick="closeNav()">×</a>
+                  <a class="navlink" onclick="closeNav()" href="#home">Home.</a>
+                  <a class="navlink" onclick="closeNav()" href="#about">About.</a>
+                  <a class="navlink" onclick="closeNav()" href="#skills">Skills.</a>
+                  <a class="navlink" onclick="closeNav()" href="#portfolio">Portfolio.</a>
+                  <a class="navlink" onclick="closeNav()" href="#contact">Contact.</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="selainnavbar">
+            <section style=" padding-bottom: 15px;" id="home" class="home reveal active">
+                <div class="row">
+                    <div class="column" style="padding-right: 25px; padding-top:250px;">
+                        <p class="hello">Hello! I am</p>
+                        <p class="name" style="font-weight: 700;">Felicia Graciella</p>
+                        <p class="desc">An Information System for Business Student</p>
+                        <!-- <a class="buttondiscover">ABOUT ME</a> -->
+                    </div>
+    
+                    <div class="column" style="padding-left: 25px; padding-top: 10px; padding-right: 50px">
+                        <img class="profilephoto" src="profile.png"/>
+                    </div>
+                </div>
+            </section>
+    
+            <hr class="dotted">
+    
+            <section id="about">
+                <h2 class="aboutmetitle" style="margin-bottom: 50px">About Me</h2>
+                <p class="aboutmetext">I'm an Information System for Business Student in Ciputra University. I am 20 and i live in Surabaya, Indonesia. I am currently having interest in System Analysis and Data Science.</p>
+            </section>
+
+            <hr class="dotted">
+
+            <section id="skills">
+                <h2 class="skilltitle">My Skills</h2>
+                <img class="skillpng" src="skills.png"/>
+            </section>
+
+            <hr class="dotted">
+
+            <section id= "portfolio" class="portfolio">
+                <h2 class="portfoliotitle">Portfolio</h2>
+                <div class="lower">
+                    <div class="columnn">
+                      <div class="content">
+                        <a href="https://github.com/feliciagraciella/TICTACTOEPELANGI"><img src="port1.png" alt="tictactoe" style="border-radius: 10px; width:100%"></a>
+                        <h3>TIC TAC TOE</h3>
+                        <p>1st semester project</p>
+                      </div>
+                    </div>
+                    <div class="columnn">
+                      <div class="content">
+                        <a href="https://github.com/feliciagraciella/Project-Application-Development-Catering"><img src="port2.png" alt="eatez" style="border-radius: 10px; width:100%"></a>
+                        <h3>CATERING APP</h3>
+                        <p>2nd semester project</p>
+                      </div>
+                    </div>
+                    <div class="columnn">
+                      <div class="content">
+                        <a href="https://enugroho.wixsite.com/kxindmarket"><img src="port3.png" alt="wix" style="border-radius: 10px; width:100%"></a>
+                        <h3>WIX WEBSITE</h3>
+                        <p>2nd semester project</p>
+                      </div>
+                    </div>
+                    <div class="columnn">
+                      <div class="content">
+                        <a href="https://github.com/feliciagraciella/Project-Database-Catering"><img src="port4.png" alt="database" style="border-radius: 10px; width:100%"></a>
+                        <h3>CATERING DATABASE</h3>
+                        <p>KMMI project</p>
+                      </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+
+
+        <script src="script.js"></script>
+    </body>
+
+
+
+    <footer style="background-color:#CEAB93">
+        <section class="socialmedias">
+            <a href="https://www.instagram.com/feliciagrap/"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/></a>
+            <a href="https://twitter.com/grapzhng"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/twitter.png"/></a>
+            <a href="https://www.linkedin.com/in/felicia-graciella-bab20b204/"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/linkedin--v1.png"/></a>
+            <a href="https://api.whatsapp.com/send?phone=6282338450081&text=Hi%20Felicia,%20I%20got%20your%20number%20from%20your%20website."><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/whatsapp--v1.png"/></a>
+            <a href="http://line.me/ti/p/~feliciagrap_"><img class="sm" src="https://img.icons8.com/ios-filled/24/000000/line-me.png"></a>
+            
+            
+            <section style="padding-bottom: 20px" class="footer" id="footer">
+                <a>&copy; 2022 Copyright | Felicia Graciella</a>
+            </section>
+        </section>
+
+    </footer>
+</html>
