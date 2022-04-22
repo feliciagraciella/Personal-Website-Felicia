@@ -138,26 +138,32 @@ body {
   text-align: left;
 }
 
+.profilephoto {
+    
+  transform: translateY(35px) translateX(0px);
+  float: right;
+  height: 600px;
+  
+  /* width: 620px; */
+}
+
 @media screen and (max-width: 1071.2px) {
   .hello {
     transform: translateX(-130px);
-    position: absolute;
   }
   .name {
     transform: translateX(-133px) translateY(30px);
-    position: absolute;
   }
   .desc {
     transform: translateX(-130px) translateY(120px);
-    position: absolute;
   }
   .profilephoto {
-    transform: translateX(100px);
+    transform: translateY(35px) translateX(100px);
   }
 
   hr.dotted {
     border-top: 3px dotted #CEAB93;
-    width: 100%
+    width: 90% !important;
   }
 
 }
@@ -254,14 +260,7 @@ body {
     clear: both;
   }  
 
-.profilephoto {
-    
-    /* transform:translateY(35px) translateX(60px); */
-    float: right;
-    height: 200%;
-    
-    /* width: 620px; */
-}
+
 
 .buttondiscover {
     background-color: #CEAB93;
@@ -346,7 +345,7 @@ hr.dotted {
 
   /* Add padding BETWEEN each column (if you want) */
   .lower,
-  .lower > .column {
+  .lower > .columnn {
     padding: 1px;
   }
   
