@@ -127,13 +127,13 @@ body {
   margin: 5px 0px;
   width:140%;
   position: absolute;
-  transform: translateY(30px);
+  transform: translateY(30px) translateX(-3px);
 }
 .desc {
   color: #3B3D3F; 
   font-size: 20px; 
   margin: 5px 0px 40px;
-  transform: translateY(125px) translateX(-5px);
+  transform: translateY(125px);
   position: absolute;
   text-align: left;
 }
@@ -152,7 +152,7 @@ body {
     position: absolute;
   }
   .profilephoto {
-    transform: translateX(130px);
+    transform: translateX(100px);
   }
 
   hr.dotted {
@@ -258,7 +258,7 @@ body {
     
     /* transform:translateY(35px) translateX(60px); */
     float: right;
-    height: 150%;
+    height: 200%;
     
     /* width: 620px; */
 }
