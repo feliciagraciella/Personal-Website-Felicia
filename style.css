@@ -170,6 +170,17 @@ body {
     padding-left: 75px !important;
     padding-right: 75px !important;
   }
+
+  .skillpng {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+
+  .portfolio {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+  }
 }
 
 /* @media screen and (max-width: 1370px) and (min-width: 875px){
