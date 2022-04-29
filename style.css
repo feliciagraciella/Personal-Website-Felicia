@@ -119,15 +119,17 @@ body {
   margin: 5px 0px;
   position: absolute;
   text-align: left;
+  transition: 0.4s;
 }
 .name {
   text-align: left;
   color: #3B3D3F; 
   font-size: 80px; 
   margin: 5px 0px;
-  /* width:140%; */
+  width:1000px;
   position: absolute;
   transform: translateY(30px) translateX(-3px);
+  transition: 0.4s;
 }
 .desc {
   color: #3B3D3F; 
@@ -136,10 +138,11 @@ body {
   transform: translateY(125px);
   position: absolute;
   text-align: left;
+  transition: 0.4s;
 }
 
 .profilephoto {
-    
+  transition: 0.4s;
   transform: translateY(35px) translateX(0px);
   float: right;
   height: 600px;
@@ -147,39 +150,48 @@ body {
   /* width: 620px; */
 }
 
+
 @media screen and (max-width: 1071.2px) {
   .hello {
     transform: translateX(-130px);
+    transition: 0.4s;
   }
   .name {
     transform: translateX(-133px) translateY(30px);
+    transition: 0.4s;
   }
   .desc {
     transform: translateX(-130px) translateY(120px);
+    transition: 0.4s;
   }
   .profilephoto {
     transform: translateY(35px) translateX(100px);
+    transition: 0.4s;
   }
 
   hr.dotted {
     border-top: 3px dotted #CEAB93;
     width: 90% !important;
+    transition: 0.4s;
   }
   
   .aboutmetext {
     padding-left: 75px !important;
     padding-right: 75px !important;
+    transition: 0.4s;
   }
 
   .skillpng {
     width: 90% !important;
     margin-left: 5% !important;
     margin-right: 5% !important;
+    transition: 0.4s;
   }
 
   .portfolio {
     padding-left: 75px !important;
     padding-right: 75px !important;
+    transition: 0.4s;
   }
 }
 
@@ -318,6 +330,7 @@ body {
   color: #3B3D3F;
   font-size: 30px;
   padding-top: 25px;
+  transition: 0.4s;
 }
 
 .aboutmetitle {
@@ -325,6 +338,7 @@ body {
   color: #3B3D3F;
   font-size: 30px;
   padding-top: 25px;
+  transition: 0.4s;
 }
 
 .portfoliotitle {
@@ -332,6 +346,7 @@ body {
   color: #3B3D3F;
   font-size: 30px;
   padding-top: 25px;
+  transition: 0.4s;
 }
 
 .aboutmetext {
@@ -339,6 +354,7 @@ body {
   padding-right: 200px;
   font-size: 20px;
   line-height: 1.6;
+  transition: 0.4s;
 }
 
 html {
@@ -350,11 +366,13 @@ html {
   display: block;
   margin-left: auto; 
   margin-right: auto;
+  transition: 0.4s;
 }
 
 hr.dotted {
   border-top: 3px dotted #CEAB93;
   width: 75%;
+  transition: 0.4s;
 }
 
 .socialmedias {
