@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="portfolio.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
@@ -61,7 +62,7 @@
             <section id="about">
                 <h2 class="aboutmetitle" style="margin-bottom: 50px">About Me</h2>
                 <p class="aboutmetext" style="text-align: center;">I'm an Information System for Business Student in Ciputra University. I am 20 and i live in Surabaya, Indonesia. I am currently having interest in System Analysis and Data Science. My hobbies are playing sports especially badminton, learning music, listening to songs, watching movies and tv shows, learning foreign languages, and Crafting (DIY).</p>
-                <a href="https://www.canva.com/design/DAE-CQmU1Ik/Bq-efPTzBl_gpSh800jaKw/view?utm_content=DAE-CQmU1Ik&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" style="color: #3B3D3F"><h3 style="padding-top: 10px; margin-bottom: 40px;">--check out my cv--</h3></a>
+                <a href="https://www.canva.com/design/DAE-CQmU1Ik/Bq-efPTzBl_gpSh800jaKw/view?utm_content=DAE-CQmU1Ik&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" style="color: #3B3D3F"><h3 class="linksss" style="padding-top: 10px; margin-bottom: 40px;">--check out my cv--</h3></a>
             </section>
 
             <hr class="dotted">
@@ -73,72 +74,110 @@
 
             <hr class="dotted">
 
-            <section id= "portfolio" class="portfolio">
+            <section id= "portfolio" class="portfolio" style="color: #3B3D3F">
                 <h2 class="portfoliotitle">Portfolio</h2>
 
                 <div class="lower">
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://github.com/feliciagraciella/TICTACTOEPELANGI"><img src="projects/port1.png" alt="tictactoe" style="border-radius: 10px; width:78%"></a>
+                        <img src="projects/port1.png" onclick="openModal1();currentSlide1(1)" class="hover-shadow cursor1" alt="tictactoe" style="border-radius: 10px; width:78%">
                         <h3>TIC TAC TOE</h3>
-                        <h4>1st semester project</h4>
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://github.com/feliciagraciella/Project-Application-Development-Catering"><img src="projects/port2.png" alt="eatez" style="border-radius: 10px; width:84%"></a>
+                        <img src="projects/port2.png" alt="eatez" style="border-radius: 10px; width:84%">
                         <h3>EATEZ APP</h3>
-                        <h4>2nd semester project</h4>
+                        <!-- <h4>2nd semester project</h4>
+                        <a href="https://github.com/feliciagraciella/Project-Application-Development-Catering" style="color: #3B3D3F"><h5 style="margin-bottom: 40px;">--link--</h5></a> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://enugroho.wixsite.com/kxindmarket"><img src="projects/port3.png" alt="wix" style="border-radius: 10px; width:100%"></a>
+                        <img src="projects/port3.png" alt="wix" style="border-radius: 10px; width:100%">
                         <h3>KXINDMARKET WEBSITE</h3>
-                        <h4>2nd semester project</h4>
+                        <!-- <h4>2nd semester project</h4>
+                        <a href="https://enugroho.wixsite.com/kxindmarket" style="color: #3B3D3F"><h5 style="margin-bottom: 40px;">--link--</h5></a> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://github.com/feliciagraciella/Project-Database-Catering"><img src="projects/port4.png" alt="database" style="border-radius: 10px; width:100%"></a>
+                        <img src="projects/port4.png" alt="database" style="border-radius: 10px; width:100%">
                         <h3>EATEZ DATABASE</h3>
-                        <h4>KMMI project</h4>
+                        <!-- <h4>KMMI project</h4>
+                        <a href="https://github.com/feliciagraciella/Project-Database-Catering" style="color: #3B3D3F"><h5 style="margin-bottom: 40px;">--link--</h5></a> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://github.com/feliciagraciella/Project-WebDevelopment-PersonalWebsite"><img src="projects/port5.png" alt="webdev1" style="border-radius: 10px; width:100%"></a>
+                        <img src="projects/port5.png" alt="webdev1" style="border-radius: 10px; width:100%">
                         <h3>PERSONAL WEBSITE</h3>
-                        <h4>Web Development project</h4>
+                        <!-- <h4>Web Development project</h4>
+                        <a href="https://github.com/feliciagraciella/Project-WebDevelopment-PersonalWebsite" style="color: #3B3D3F"><h5 style="margin-bottom: 40px;">--link--</h5></a> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
-                        <a href="https://github.com/feliciagraciella/Project-WebDevelopment-MakanYuk"><img src="projects/port6.png" alt="webdev2" style="border-radius: 10px; width:100%"></a>
+                        <img src="projects/port6.png" alt="webdev2" style="border-radius: 10px; width:100%">
                         <h3>MAKAN YUK WEBSITE</h3>
-                        <h4>Web Development project</h4>
+                        <!-- <h4>Web Development project</h4>
+                        <a href="https://github.com/feliciagraciella/Project-WebDevelopment-MakanYuk" style="color: #3B3D3F"><h5 style="margin-bottom: 40px;">--link--</h5></a> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
                         <a><img src="projects/port7.png" alt="webdev2" style="border-radius: 10px; width:87%"></a>
                         <h3>BEST AUTO CARE SOLUTION WEBSITE</h3>
-                        <h4>Education Technology Innovation Competition</h4>
+                        <!-- <h4>Education Technology Innovation Competition</h4> -->
                       </div>
                     </div>
                     <div class="columnn">
                       <div class="content">
                         <a><img src="projects/port8.png" alt="webdev2" style="border-radius: 10px; width:89%"></a>
-                        <h3>CATERING SERVICE WEBSITE</h3>
-                        <h4>System Analysis and Design project</h4>
+                        <h3>LANGKAHKU WEBSITE</h3>
+                        <!-- <h4>System Analysis and Design project</h4> -->
                       </div>
                     </div>
                 </div>
             </section>
         </section>
         
+        <section id="port1" style="color: #3B3D3F">
+          <div id="myModal1" class="modal1">
+              <span class="close1 cursor1" onclick="closeModal1()">&times;</span>
+              
+              <h2 style="text-align: center; margin: 10px;">TIC TAC TOE</h2>
+              <h4 style="text-align: center; margin: 10px;">1st semester project</h4>
+              <a href="https://github.com/feliciagraciella/TICTACTOEPELANGI" style="color: #3B3D3F"><h5 class="linkss" style="text-align: center; margin-bottom: 40px;">github link</h5></a>
 
+              <div class="modal-content1">
+                <div class="mySlides1">
+                  <div class="numbertext">1 / 2</div>
+                  <img src="projects/port1/port1-1.png" style="width:100%; border-radius: 10px;">
+                </div>
+            
+                <div class="mySlides1">
+                  <div class="numbertext">2 / 2</div>
+                  <img src="projects/port1/port1-2.png" style="width:100%; border-radius: 10px;">
+                </div>
+  
+                <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+              </div>
 
+              <p style="padding-left:100px; padding-right: 100px; text-align: justify;">
+                This application is a Tic Tac Toe game application. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a multiplayer game, so two players can play against each other consecutively.
+              </p>
+              <p style="padding-left:100px; padding-right: 100px; text-align: justify;">
+                I made this application to complete This project was created to complete the Algorithm and Programming Final Project. My role in this team was a programmer.
+              </p>
+              <p style="padding-left:100px; padding-right: 100px; padding-bottom: 40px; text-align: justify;">
+                The challenge in making this project was to make this game can be played in two devices at the same time. The logic of the game itselfwas not that hard, but it was challenging how to connect the two devices. At that time also, because of the pandemic situation, we could not meet our team, so we could not try the multiplayer aspect. In the end, we succeed to make this application can be played in two windows (one device).
+              </p>
+          </div>
+        </section>
+
+        <script src="portfolio.js"></script>
         <script src="script.js"></script>
     </body>
 

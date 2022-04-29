@@ -226,6 +226,14 @@ body {
   font-weight: 500;
 }
 
+.linksss:hover {
+  color: #BE9B83;
+}
+
+.linkss:hover {
+  color: #E3CAA5;
+}
+
 .sidebar a:hover {
   color: #E3CAA5;
 }
@@ -400,8 +408,8 @@ hr.dotted {
   }
 
   .portfolio {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 180px;
+    padding-right: 180px;
   }
 
   h3 {

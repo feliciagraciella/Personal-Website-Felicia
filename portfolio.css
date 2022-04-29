@@ -1,0 +1,198 @@
+/* width */
+.modal1::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .modal1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .modal1::-webkit-scrollbar-thumb {
+    background: #3B3D3F; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .modal1::-webkit-scrollbar-thumb:hover {
+    background: #3B3D3F; 
+  }
+  
+  /* The Modal (background) */
+  .modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 80px;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 70%;
+    overflow: auto;
+    background-color: #CEAB93;
+    border-radius: 10px;
+  }
+  
+  /* Modal Content */
+  .modal-content1 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1000px;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: #3B3D3F;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #E3CAA5;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides1 {
+    display: none;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .cursor1 {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 57%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #3B3D3F;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #CEAB93;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #3B3D3F;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* img {
+    margin-bottom: -4px;
+  } */
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo1 {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo1:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
+
+  
+  /* The Modal (background) */
+  .modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 15%;
+    top: 7%;
+    width: 70%;
+    height: 70%;
+    overflow: auto;
+    background-color: #3B3D3F;
+  }
+  
+  /* Modal Content */
+  .modal-content2 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1000px;
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides2 {
+    display: none;
+  }
+  
+  .cursor2 {
+    cursor: pointer;
+  }
+  
+  .demo2 {
+    opacity: 0.6;
+  }
+  

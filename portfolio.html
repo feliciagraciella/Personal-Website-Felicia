@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Personal Website - Felicia Graciella</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        
+        <div style="margin-top: 1000px;" class="row">
+            <div class="column">
+              <img src="projects/port1.png" style="width:100%" onclick="openModal1();currentSlide1(1)" class="hover-shadow cursor1">
+            </div>
+            <div class="column">
+              <img src="projects/port2.png" style="width:100%" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor2">
+            </div>
+            <div class="column">
+              <img src="projects/port2.png" style="width:100%" onclick="openModal3()" class="hover-shadow cursor3">
+            </div>
+            <div class="column">
+              <img src="projects/port2.png" style="width:100%" onclick="openModal4()" class="hover-shadow cursor4">
+            </div>
+        </div>
+        
+        <section id="port1">
+            <div id="myModal1" class="modal1">
+                <span class="close1 cursor1" onclick="closeModal1()">&times;</span>
+                <div class="modal-content1">
+              
+                  <div class="mySlides1">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="projects/port1/port1-1.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides1">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="projects/port1/port1-2.png" style="width:100%">
+                  </div>
+    
+                  <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+              
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+              
+              
+                  <div class="column">
+                    <img class="demo1 cursor1" src="projects/port1/port1-1.png" style="width:100%" onclick="currentSlide1(1)" alt="Nature and sunrise">
+                  </div>
+                  <div class="column">
+                    <img class="demo1 cursor1" src="projects/port1/port1-2.png" style="width:100%" onclick="currentSlide1(2)" alt="Snow">
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="port2">
+            <div id="myModal2" class="modal2">
+                <span class="close2 cursor2" onclick="closeModal2()">&times;</span>
+                <div class="modal-content2">
+              
+                  <div class="mySlides2">
+                    <div class="numbertext">1 / 7</div>
+                    <img src="projects/port2/port2-1.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides2">
+                    <div class="numbertext">2 / 7</div>
+                    <img src="projects/port2/port2-2.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext">3 / 7</div>
+                    <img src="projects/port2/port2-3.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext">4 / 7</div>
+                    <img src="projects/port2/port2-4.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext">5 / 7</div>
+                    <img src="projects/port2/port2-5.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext">6 / 7</div>
+                    <img src="projects/port2/port2-6.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <div class="numbertext">7 / 7</div>
+                    <img src="projects/port2/port2-7.png" style="width:100%">
+                  </div>
+    
+                  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+              
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+              
+              
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-1.png" style="width:100%" onclick="currentSlide2(1)" alt="Nature and sunrise">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-2.png" style="width:100%" onclick="currentSlide2(2)" alt="Snow">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-3.png" style="width:100%" onclick="currentSlide2(3)" alt="Snow">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-4.png" style="width:100%" onclick="currentSlide2(4)" alt="Snow">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-5.png" style="width:100%" onclick="currentSlide2(5)" alt="Snow">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-6.png" style="width:100%" onclick="currentSlide2(6)" alt="Snow">
+                  </div>
+                  <div class="column">
+                    <img class="demo2 cursor2" src="projects/port2/port2-7.png" style="width:100%" onclick="currentSlide2(7)" alt="Snow">
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <script src="portfolio.js"></script>
+    </body>
+
+
+
+    <footer style="background-color:#CEAB93">
+        <section class="socialmedias">
+            <a href="https://www.instagram.com/feliciagrap/"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/></a>
+            <a href="https://twitter.com/grapzhng"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/twitter.png"/></a>
+            <a href="https://www.linkedin.com/in/felicia-graciella-bab20b204/"><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/linkedin--v1.png"/></a>
+            <a href="https://api.whatsapp.com/send?phone=6282338450081&text=Hi%20Felicia,%20I%20got%20your%20number%20from%20your%20website."><img class="sm" src="https://img.icons8.com/material-outlined/24/000000/whatsapp--v1.png"/></a>
+            <a href="http://line.me/ti/p/~feliciagrap_"><img class="sm" src="https://img.icons8.com/ios-filled/24/000000/line-me.png"></a>
+            
+            
+            <section style="padding-bottom: 20px" class="footer" id="footer">
+                <a>&copy; 2022 Copyright | Felicia Graciella</a>
+            </section>
+        </section>
+
+    </footer>
+</html>
